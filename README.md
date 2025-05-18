@@ -2,7 +2,7 @@
 
 React implementation for a modern, production-ready template for personal CV using React Router.
 
-[![View Live](https://rpritr.github.io/personal-cv-react/)](https://rpritr.github.io/personal-cv-react/)
+🔗 [View Live Site](https://rpritr.github.io/personal-cv-react/)
 
 ## Features
 
