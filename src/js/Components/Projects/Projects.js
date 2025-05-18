@@ -16,13 +16,25 @@ const Projects = () => {
     };
 
     return (
-        <div className="projects">
-            <Project project={project}/>
-            <Project project={project}/>
-            <Project project={project}/>
-            <Project project={project}/>
-            <Project project={project}/>
-            <Project project={project}/>
+        <div className="projects row">
+            <div className="col-3">
+                <Project project={project}/>
+            </div>
+            <div className="col-3">
+                <Project project={project}/>
+            </div>
+            <div className="col-3">
+                <Project project={project}/>
+            </div>
+            <div className="col-3">
+                <Project project={project}/>
+            </div>
+            <div className="col-3">
+                <Project project={project}/>
+            </div>
+            <div className="col-3">
+                <Project project={project}/>
+            </div>
         </div>
     )
 }

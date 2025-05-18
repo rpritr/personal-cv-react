@@ -3,7 +3,9 @@
 
 .project {
   background: variables.$cardColor;
+  border-radius: 30px;
   padding: 20px;
+  margin: 20px;
   img { width: 100%}
   .project__title {
     font-size: 1.75em;
