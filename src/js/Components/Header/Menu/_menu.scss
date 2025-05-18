@@ -1,7 +1,7 @@
 @use "../../../../scss/general/variables";
 @use "../../../../scss/general/mixins";
 
-.header__menu {
+ .header__menu {
   @include mixins.mobile { height: 50px; }
   .header__menu--nav-list {
     display: flex;
