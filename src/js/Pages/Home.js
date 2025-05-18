@@ -15,6 +15,7 @@ import saas from "../assets/saas.svg";
 import vscode from "../assets/vscode.svg";
 import gith from "../assets/gith.svg";
 import git from "../assets/git.svg";
+import Projects from "../Components/Projects/Projects";
 
 const Home = () => {
     return (
@@ -39,7 +40,7 @@ const Home = () => {
                 />
             </Section>
             <Section id="projects" class="projects" heading="Projects" subtitle="Things I’ve built so far">
-                <p>Tech</p>
+                <Projects/>
             </Section>
             <Footer/>
         </>
