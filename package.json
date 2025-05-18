@@ -1,6 +1,6 @@
 {
   "name": "personal-cv-react",
-  "homepage": "https://github.com/rpritr/personal-cv-react",
+  "homepage": "https://rpritr.github.io/personal-cv-react",
   "version": "1.0.0",
   "scripts": {
     "start": "webpack serve",
