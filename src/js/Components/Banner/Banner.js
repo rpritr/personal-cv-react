@@ -8,7 +8,7 @@ const Banner = () => {
         <section className="section banner">
             <div className="banner__intro">
                 <h1>
-                    Hi 👋,
+                    Hi 👋,<br/>
                     My name is<br/>
                     <span className="gradient">Pavan MG</span><br/>
                     I build things for web

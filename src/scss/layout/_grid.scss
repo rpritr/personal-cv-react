@@ -9,7 +9,7 @@
 
   }
   @include mixins.tablet {
-    width: 80%;
+    width: 95%;
   }
 }
 
@@ -19,8 +19,10 @@
 }
 @for $i from 1 through 12 {
   .col-#{$i} {
+    display: flex;
     width: calc(100% / $i);
     min-height: 1px;
+
     @include mixins.mobile {
       width: 100%;
     }

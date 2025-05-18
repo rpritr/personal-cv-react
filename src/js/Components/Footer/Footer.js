@@ -10,7 +10,7 @@ import linkedin from "../../assets/linkedin.svg";
 const Footer = () => {
     return (
         <>
-            <footer className="header footer__top">
+            <footer className="header footer__top" id="contact">
                     <Logo/>
                     <Menu items={
                         [
