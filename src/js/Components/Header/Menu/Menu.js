@@ -1,10 +1,14 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./_menu.scss";
 import menu from "../../../assets/menu.svg";
 
 const Menu = (props) => {
     const [mobile,setMobile] = useState(true);
-
+    useEffect(() => {
+        if(window.innerWidth < 600) {
+            setMobile(false);
+        }
+    }, []);
     const toggleMobile = (e) => { setMobile(!mobile); } // TODO state on mobile !!!
     return (
         <nav className="header__menu">
